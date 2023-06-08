@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/assign4login.css">
+</head>
+<body>
+<form id="form">
+    <div id="main_div">
+        <div id="div_1">
+            <div id="div_2">
+            <form action="#" method="post">
+            <h3>Create Login</h3>
+        <div class="input_group">
+            <label class="labels" id="label1" for="username">Student Username:</label>
+            <input class="labels" type="text" id="username" placeholder="enter your name" autocomplete="off" name="username" onblur="fun1()"><br>
+            <div class="error" id="error1"></div>
+        </div>    
+
+        <div class="input_group">
+            <label class="labels" id="label2" for="email">Student E-mail:</label>
+            <input class="labels" type="text" id="email" placeholder="enter your mail id" name="email" autocomplete="off" onblur="fun2()">
+            <div class="error"id="error2"></div>
+        </div>    
+        <div class="input_group">
+            <label class="labels"id="label3" for="password">New Password:</label>
+            <input class="labels" type="password" id="password" placeholder="enter new password" name="password" onblur="fun3()" >
+            <div class="error" id="error3"></div>
+        </div>
+        <div class="input_group">
+            <label class="labels" for="cpassword">Confirm Password:</label>
+            <input class="labels" id="cpassword"  type="password" id="cpassword" placeholder="enter confirm password" name="cpassword" onblur="fun4()">
+            
+            <div class="error" id="error4"></div>
+        </div>
+            <button id="button1" class="button" type="submit">Submit</button><br>
+            <br>
+
+            <a href="../html/loginassignment2-transform.html">Already have an Account?? Log-in!!</a>
+            </form>
+           </div>
+        </div>
+    </div> 
+</form>
+
+
+
+
+    <script src="js/assign4n-login.js"></script>
+</body>
+</html>
